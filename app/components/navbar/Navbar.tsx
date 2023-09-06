@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from "@/app/components/Container";
 import Logo from "@/app/components/navbar/Logo";
+import Search from "@/app/components/navbar/Search";
 
 const Navbar = () => {
     return (
@@ -20,6 +21,7 @@ const Navbar = () => {
                 ">
 
                         <Logo/>
+                        <Search />
                     </div>
                 </Container>
             </div>
