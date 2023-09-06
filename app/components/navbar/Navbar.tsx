@@ -1,4 +1,5 @@
 import React from 'react';
+import Container from "@/app/components/Container";
 
 const Navbar = () => {
     return (
@@ -7,9 +8,9 @@ const Navbar = () => {
             py-4
             border-b-[1px]
             ">
-
-
             </div>
+            <Container/>
+
         </div>
     );
 };
