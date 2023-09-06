@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from "@/app/components/Container";
+import Logo from "@/app/components/navbar/Logo";
 
 const Navbar = () => {
     return (
@@ -18,7 +19,7 @@ const Navbar = () => {
                 md:gap-0
                 ">
 
-
+                        <Logo/>
                     </div>
                 </Container>
             </div>
