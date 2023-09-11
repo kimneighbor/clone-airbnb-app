@@ -25,6 +25,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 font-semibold
                 "
         >
+            {label}
 
         </div>
     );
