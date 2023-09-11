@@ -1,5 +1,8 @@
 
 const MenuItem = () => {
+    onClick: () => void;
+    label: string;
+
     return (
         <div>
 
